@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Бюджетник</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul class="total-info">
+            <li class="total_info_item">
+                <div class="total_info_item_name">бюджет</div>
+                <div class="out_budget">0.00р</div>
+            </li>
+            <li class="total_info_item">
+                <div class="total_info_item_name">потрачено</div>
+                <div class="out_spent">0.00р</div>
+            </li>
+            <li class="total_info_item">
+                <div class="total_info_item_name">осталось</div>
+                <div class="out_limit">0.00р</div>
+            </li>
+        </ul>
+        <hr>
+
+
+        <div class="current-info">
+            <div class="current_info_budget">
+                <label for="current_budget">введите сумму вашего бюджета</label>
+                <input type="text" id="current_budget">
+                <button class="set_budget">ОК</button>
+            </div>
+            <div class="current_info_block">
+                <div class="current_info_item">
+                    <label for="current_item">наименование</label>
+                    <input type="text" id="current_item">
+                </div>
+                <div class="current_info_cost">
+                    <label for="current_cost">стоимость</label>
+                    <input type="text" id="current_cost">
+                </div>
+                <button class="set_current_info">ОК</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="list-info">
+            <div class="list_info_head">
+                <div class="list">Весь список</div>
+                <div class="list_info_buttons">
+                    <button class="clear_list_info">очистить список</button>
+                    <input type="date" value="2018-07-22" id="from">
+                    <input type="date" id="to">
+                </div>
+            </div>
+            <table></table>
+        </div>
+
+    </div>
+    <div class="footer"></div>
+    <script src="budget.js"></script>
+</body>
+
+</html>

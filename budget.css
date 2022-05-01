@@ -1,0 +1,202 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+.wrapper {    
+    width: 80%;
+    background-color: rgba(243, 237, 229, 0.466);
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 auto; */
+    min-height: 100vh;
+}
+
+hr {
+    margin: 0;
+}
+
+/************************* Блок total-info *****************/
+.total-info {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-start: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.total_info_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+.total_info_item_name {
+
+    padding-top: 10px;
+}
+
+.total_info_item_name:first-child {
+    padding-left: 20px;
+}
+
+.out_budget, .out_spent, .out_limit {
+    border: 3px solid red;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.308);
+}
+
+/****************** Блок current-info ******************/
+.current-info {
+    font-size: 26px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.current_info_budget {
+    /************************** КАК ПРИБИТЬ К ПРАВОМУ КРАЮ?*/
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#current_budget {
+    border-radius: 20px;
+    height: 30px;
+    margin: 0 20px;
+    font-size: large;
+}
+
+
+
+.set_budget {
+    border-radius: 20px;
+    height: 40px;
+    width: 60px;
+}
+
+
+
+.current_info_block {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.current_info_item {
+    margin-right: 100px;
+}
+
+.current_info_cost {
+    margin-right: 40px;
+}
+
+.set_current_info {
+    border-radius: 20px;
+    height: 40px;
+    width: 60px; 
+}
+
+#current_item, #current_cost {
+    border-radius: 20px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+/****************** Блок list-info ******************/
+
+.list-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.list-info div {
+    width: inherit;    
+    margin-bottom: 10px;
+} 
+.list_info_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;  
+}
+.list {
+    display: flex;
+    justify-content: start; 
+    padding-left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.list_info_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* border: 1px solid black; */
+    
+}
+.clear_list_info {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+.list_info_buttons:last-child {
+    margin-right: 20px;
+}
+#from, #to {
+    border-radius: 20px;
+    height: 38px;
+    width: 100px;
+    background-color: #EFEFEF;
+    margin-left: 10px;
+}
+
+th {
+    padding: 20px;
+    font-size: 26px;
+    font-style: italic;
+    width: 33%;
+}
+
+td {
+    text-align: center;
+    width: 33%;
+}
+.footer {
+    height: 30px;
+    background-color: rgba(243, 237, 229, 0.466);
+    width: 80%;
+    margin: auto;
+}
