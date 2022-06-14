@@ -126,6 +126,7 @@ function createStory() {
     store.story.push({ 'name': 'march', 'price': 456, 'date': '2022-03-05' });
     store.story.push({ 'name': 'march', 'price': 123, 'date': '2022-03-15' });
     store.story.push({ 'name': 'march', 'price': 456, 'date': '2022-03-25' });
+	store.story.push({ 'name': 'june', 'price': 888, 'date': '2022-08-08' });
     updateInfo();
 }
 
